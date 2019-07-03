@@ -22,7 +22,7 @@ headers = {
    'Host': "collabera-aws-training.s3.amazonaws.com",
    'X-Amz-Content-Sha256': "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    'X-Amz-Date': "20190703T185532Z",
-   'Authorization': "AWS4-HMAC-SHA256 Credential=AKIA4SOMN2PT4N3C32NF/20190703/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=403a2fa64de254a467af113a88ef0b52944a43cb2cb4d6c3dde5e28010c19318",
+   'Authorization': ", SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=403a2fa64de254a467af113a88ef0b52944a43cb2cb4d6c3dde5e28010c19318",
    'User-Agent': "PostmanRuntime/7.15.0",
    'Accept': "*/*",
    'Cache-Control': "no-cache",
