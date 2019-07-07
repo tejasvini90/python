@@ -57,4 +57,14 @@ t=r.text.split('\n')[-2]
 f1.write(t)
 f1.close()
 
-
+#Q]to open a file ,use method on string 5th row from rear and 4th word then write file
+f=open("C:/Users/akshay/Desktop/data01.csv")
+f.read()
+f.seek(0)
+s=f.read()
+r=s.split('\n')[-5].split(',')[-4]
+type(r)
+p=int(r)+2
+f1=open("C:/Users/akshay/Desktop/quest5.txt",'w')
+f1.write(str(p))
+f1.close()
